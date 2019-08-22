@@ -11,6 +11,7 @@ public abstract class Entry {
         this.date = date;
         this.time = time;
         this.label = label;
+        this.isRepeating = false;
     }
 
     // getters

@@ -15,7 +15,7 @@ public class Reminder extends Entry {
 
     // setters
 
-    public void setAdditionalNote() {
+    public void setAdditionalNote(String additionalNote) {
         this.additionalNote = additionalNote;
     }
 
