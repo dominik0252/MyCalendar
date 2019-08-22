@@ -7,11 +7,6 @@ public abstract class Entry {
     Boolean isRepeating;
     String intervalOfRepetition;
 
-    public Entry(Date date, Time time) {
-        this.date = date;
-        this.time = time;
-    }
-
     public Entry(Date date, Time time, String label) {
         this.date = date;
         this.time = time;
@@ -43,6 +38,7 @@ public abstract class Entry {
     // setters
 
     // REQUIRES: intervalOfRepetition should be one of "30min", "1h", "2h", "3h", "6h", "12h", "1d", "7d"
+    // MODIFIES: this
     // EFFECTS:  Sets the intervalOfRepetition and isRepeating to true is interval is not null, otherwise false
     public void setIntervalOfRepetition(String intervalOfRepetition) {
         this.intervalOfRepetition = intervalOfRepetition;

@@ -3,8 +3,8 @@ package model;
 public class Event extends Entry {
     Reminder reminder;
 
-    public Event(Date date, Time time) {
-        super(date, time);
+    public Event(Date date, Time time, String label) {
+        super(date, time, label);
     }
 
     // getters

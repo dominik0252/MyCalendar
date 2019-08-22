@@ -3,8 +3,8 @@ package model;
 public class Reminder extends Entry {
     String additionalNote;
 
-    public Reminder(Date date, Time time) {
-        super(date, time);
+    public Reminder(Date date, Time time, String label) {
+        super(date, time, label);
     }
 
     // getters
