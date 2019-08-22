@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8772c56-d0f5-45cc-a36c-51d366fc6ec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/DateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Entry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCalendar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyCalendar.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
