@@ -42,6 +42,8 @@ public abstract class Entry {
 
     // setters
 
+    // REQUIRES: intervalOfRepetition should be one of "30min", "1h", "2h", "3h", "6h", "12h", "1d", "7d"
+    // EFFECTS:  Sets the intervalOfRepetition and isRepeating to true is interval is not null, otherwise false
     public void setIntervalOfRepetition(String intervalOfRepetition) {
         this.intervalOfRepetition = intervalOfRepetition;
         this.isRepeating = (intervalOfRepetition != null);
